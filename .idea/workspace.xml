@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="348556ea-fc12-408b-914b-ec92b9d5d56b" name="Default" comment="" />
+    <list default="true" id="348556ea-fc12-408b-914b-ec92b9d5d56b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/jianshuspider/jianshuspider/items.py" afterPath="$PROJECT_DIR$/jianshuspider/jianshuspider/items.py" />
+      <change beforePath="$PROJECT_DIR$/jianshuspider/jianshuspider/pipelines.py" afterPath="$PROJECT_DIR$/jianshuspider/jianshuspider/pipelines.py" />
+      <change beforePath="$PROJECT_DIR$/jianshuspider/jianshuspider/scrapy_redis/BloomfilterOnRedis.py" afterPath="$PROJECT_DIR$/jianshuspider/scrapy_redis/BloomfilterOnRedis.py" />
+      <change beforePath="$PROJECT_DIR$/jianshuspider/jianshuspider/scrapy_redis/__init__.py" afterPath="$PROJECT_DIR$/jianshuspider/scrapy_redis/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/jianshuspider/jianshuspider/scrapy_redis/connection.py" afterPath="$PROJECT_DIR$/jianshuspider/scrapy_redis/connection.py" />
+      <change beforePath="$PROJECT_DIR$/jianshuspider/jianshuspider/scrapy_redis/defaults.py" afterPath="$PROJECT_DIR$/jianshuspider/scrapy_redis/defaults.py" />
+      <change beforePath="$PROJECT_DIR$/jianshuspider/jianshuspider/scrapy_redis/dupefilter.py" afterPath="$PROJECT_DIR$/jianshuspider/scrapy_redis/dupefilter.py" />
+      <change beforePath="$PROJECT_DIR$/jianshuspider/jianshuspider/scrapy_redis/picklecompat.py" afterPath="$PROJECT_DIR$/jianshuspider/scrapy_redis/picklecompat.py" />
+      <change beforePath="$PROJECT_DIR$/jianshuspider/jianshuspider/scrapy_redis/pipelines.py" afterPath="$PROJECT_DIR$/jianshuspider/scrapy_redis/pipelines.py" />
+      <change beforePath="$PROJECT_DIR$/jianshuspider/jianshuspider/scrapy_redis/queue.py" afterPath="$PROJECT_DIR$/jianshuspider/scrapy_redis/queue.py" />
+      <change beforePath="$PROJECT_DIR$/jianshuspider/jianshuspider/scrapy_redis/scheduler.py" afterPath="$PROJECT_DIR$/jianshuspider/scrapy_redis/scheduler.py" />
+      <change beforePath="$PROJECT_DIR$/jianshuspider/jianshuspider/scrapy_redis/spiders.py" afterPath="$PROJECT_DIR$/jianshuspider/scrapy_redis/spiders.py" />
+      <change beforePath="$PROJECT_DIR$/jianshuspider/jianshuspider/scrapy_redis/tests.py" afterPath="$PROJECT_DIR$/jianshuspider/scrapy_redis/tests.py" />
+      <change beforePath="$PROJECT_DIR$/jianshuspider/jianshuspider/scrapy_redis/utils.py" afterPath="$PROJECT_DIR$/jianshuspider/scrapy_redis/utils.py" />
+      <change beforePath="$PROJECT_DIR$/jianshuspider/jianshuspider/settings.py" afterPath="$PROJECT_DIR$/jianshuspider/jianshuspider/settings.py" />
+      <change beforePath="$PROJECT_DIR$/jianshuspider/jianshuspider/spiders/jianshu.py" afterPath="$PROJECT_DIR$/jianshuspider/jianshuspider/spiders/jianshu.py" />
+      <change beforePath="$PROJECT_DIR$/jianshuspider/lpush_redis.py" afterPath="$PROJECT_DIR$/jianshuspider/lpush_redis.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,12 +29,62 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/jianshuCrawl$pipelines.coverage" NAME="pipelines Coverage Results" MODIFIED="1521006321020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jianshuspider/jianshuspider" />
-    <SUITE FILE_PATH="coverage/jianshuCrawl$quickstart.coverage" NAME="quickstart Coverage Results" MODIFIED="1521016110927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jianshuspider" />
-    <SUITE FILE_PATH="coverage/jianshuCrawl$lpush_redis.coverage" NAME="lpush_redis Coverage Results" MODIFIED="1521016114863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jianshuspider" />
+    <SUITE FILE_PATH="coverage/jianshuCrawl$pipelines.coverage" NAME="pipelines Coverage Results" MODIFIED="1521081760099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jianshuspider/jianshuspider" />
+    <SUITE FILE_PATH="coverage/jianshuCrawl$start_Crawl.coverage" NAME="start_Crawl Coverage Results" MODIFIED="1521094601830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jianshuspider/jianshuspider/spiders" />
+    <SUITE FILE_PATH="coverage/jianshuCrawl$quickstart.coverage" NAME="quickstart Coverage Results" MODIFIED="1521081811212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jianshuspider" />
+    <SUITE FILE_PATH="coverage/jianshuCrawl$lpush_redis.coverage" NAME="lpush_redis Coverage Results" MODIFIED="1521093113917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jianshuspider" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="start_Crawl.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jianshuspider/jianshuspider/spiders/start_Crawl.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jianshuspider/jianshuspider/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-936">
+              <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+              <folding>
+                <element signature="e#24#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jianshuspider/jianshuspider/pipelines.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+              <folding>
+                <element signature="e#24#53#0" expanded="true" />
+                <element signature="e#567#1132#0" expanded="false" />
+                <element signature="e#1178#2126#0" expanded="false" />
+                <element signature="e#2601#3452#0" expanded="false" />
+                <element signature="e#3516#4975#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lpush_redis.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jianshuspider/lpush_redis.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -32,6 +101,12 @@
       <find>article_url</find>
       <find>zhihu</find>
       <find>zhuhu</find>
+      <find>name</find>
+      <find>attention</find>
+      <find>XXX</find>
+      <find>UUU</find>
+      <find>AAA</find>
+      <find>parse</find>
     </findStrings>
     <replaceStrings>
       <replace>Column(String(1024))</replace>
@@ -39,18 +114,22 @@
       <replace>item[&quot;&quot;],</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jianshuspider/jianshuspider/pipelines.py" />
         <option value="$PROJECT_DIR$/jianshuspider/jianshuspider/useragent.py" />
-        <option value="$PROJECT_DIR$/jianshuspider/quickstart.py" />
         <option value="$PROJECT_DIR$/jianshuspider/jianshuspider/scrapy_redis/defaults.py" />
-        <option value="$PROJECT_DIR$/jianshuspider/lpush_redis.py" />
-        <option value="$PROJECT_DIR$/jianshuspider/jianshuspider/spiders/jianshu.py" />
-        <option value="$PROJECT_DIR$/jianshuspider/jianshuspider/settings.py" />
         <option value="$PROJECT_DIR$/jianshuspider/jianshuspider/middlewares.py" />
+        <option value="$PROJECT_DIR$/jianshuspider/quickstart.py" />
+        <option value="$PROJECT_DIR$/jianshuspider/jianshuspider/spiders/start_Crawl.py" />
         <option value="$PROJECT_DIR$/jianshuspider/jianshuspider/items.py" />
+        <option value="$PROJECT_DIR$/jianshuspider/lpush_redis.py" />
+        <option value="$PROJECT_DIR$/jianshuspider/jianshuspider/settings.py" />
+        <option value="$PROJECT_DIR$/jianshuspider/jianshuspider/spiders/jianshu.py" />
+        <option value="$PROJECT_DIR$/jianshuspider/jianshuspider/pipelines.py" />
       </list>
     </option>
   </component>
@@ -61,9 +140,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="95" />
-    <option name="y" value="41" />
-    <option name="width" value="1369" />
+    <option name="x" value="1586" />
+    <option name="y" value="53" />
+    <option name="width" value="1231" />
     <option name="height" value="1035" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -82,6 +161,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -98,7 +178,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,16 +196,29 @@
               <item name="jianshuspider" type="462c0819:PsiDirectoryNode" />
               <item name="jianshuspider" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="jianshuCrawl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jianshuCrawl" type="462c0819:PsiDirectoryNode" />
+              <item name="jianshuspider" type="462c0819:PsiDirectoryNode" />
+              <item name="jianshuspider" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="last_opened_file_path" value="C:/迅雷下载" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\BaiduNetdiskDownload\01 Github待提交爬虫项目\jianshuCrawl\jianshuspider" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -140,7 +232,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.lpush_redis">
+  <component name="RunManager" selected="Python.start_Crawl">
     <configuration name="lpush_redis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -198,16 +290,37 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="3">
+    <configuration name="start_Crawl" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jianshuspider/jianshuspider/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="jianshuCrawl" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jianshuspider/jianshuspider/spiders/start_Crawl.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.quickstart" />
       <item index="1" class="java.lang.String" itemvalue="Python.pipelines" />
       <item index="2" class="java.lang.String" itemvalue="Python.lpush_redis" />
+      <item index="3" class="java.lang.String" itemvalue="Python.start_Crawl" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.lpush_redis" />
-        <item index="1" class="java.lang.String" itemvalue="Python.quickstart" />
-        <item index="2" class="java.lang.String" itemvalue="Python.pipelines" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.start_Crawl" />
+        <item index="1" class="java.lang.String" itemvalue="Python.lpush_redis" />
+        <item index="2" class="java.lang.String" itemvalue="Python.quickstart" />
+        <item index="3" class="java.lang.String" itemvalue="Python.pipelines" />
       </list>
     </recent_temporary>
   </component>
@@ -228,22 +341,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="95" y="41" width="1369" height="1035" extended-state="0" />
+    <frame x="1586" y="53" width="1231" height="1035" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4894327" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38153505" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5111359" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29379156" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20779221" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19214347" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -264,41 +378,17 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jianshuspider/jianshuspider/scrapy_redis/pipelines.py">
+    <entry file="file://$PROJECT_DIR$/jianshuspider/scrapy_redis/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1638">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jianshuspider/jianshuspider/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-          <folding>
-            <element signature="e#211#292#0" expanded="false" />
-            <element signature="e#342#695#0" expanded="false" />
-            <element signature="e#748#1469#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jianshuspider/jianshuspider/scrapy_redis/defaults.py">
+    <entry file="file://$PROJECT_DIR$/jianshuspider/scrapy_redis/defaults.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
           <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jianshuspider/lpush_redis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -306,21 +396,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#169#195#0" expanded="true" />
-            <element signature="e#715#2377#0" expanded="false" />
-            <element signature="e#2433#4076#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jianshuspider/jianshuspider/spiders/jianshu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -336,36 +411,83 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36/Lib/site-packages/scrapy/spiders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="88" column="13" lean-forward="false" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jianshuspider/jianshuspider/settings.py">
+    <entry file="file://$PROJECT_DIR$/jianshuspider/jianshuspider/spiders/jianshu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+        <state relative-caret-position="89">
+          <caret line="82" column="10" lean-forward="false" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
           <folding>
-            <element signature="e#1426#1439#0" expanded="true" />
+            <element signature="e#74#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshuspider/jianshuspider/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="77" column="40" lean-forward="true" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
+          <folding>
+            <element signature="e#211#292#0" expanded="false" />
+            <element signature="e#342#695#0" expanded="false" />
+            <element signature="e#748#1469#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jianshuspider/quickstart.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="338">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshuspider/lpush_redis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshuspider/jianshuspider/spiders/start_Crawl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshuspider/jianshuspider/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-936">
+          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jianshuspider/jianshuspider/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="97" column="78" lean-forward="false" selection-start-line="97" selection-start-column="78" selection-end-line="97" selection-end-column="78" />
+        <state relative-caret-position="156">
+          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
           <folding>
-            <element signature="e#193#222#0" expanded="true" />
-            <element signature="e#734#1299#0" expanded="false" />
-            <element signature="e#1345#2293#0" expanded="false" />
+            <element signature="e#24#53#0" expanded="true" />
+            <element signature="e#567#1132#0" expanded="false" />
+            <element signature="e#1178#2126#0" expanded="false" />
+            <element signature="e#2601#3452#0" expanded="false" />
+            <element signature="e#3516#4975#0" expanded="false" />
           </folding>
         </state>
       </provider>

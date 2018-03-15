@@ -1,28 +1,29 @@
 # -*- coding: utf-8 -*-
-import scrapy
-from scrapy.http import Request
+# import scrapy
+# from scrapy.http import Request
 import re
 from scrapy.linkextractors import LinkExtractor
-from scrapy.spiders import CrawlSpider, Rule
-
+from scrapy.spiders import Rule
+from scrapy_redis.spiders import RedisCrawlSpider
 # 导入item文件
 try:
-    from jianshuspider.jianshuspider.items import JianshuArticleItem, JianshuUserItem
+    from items import JianshuArticleItem, JianshuUserItem
 except:
     from jianshuspider.items import JianshuArticleItem, JianshuUserItem
 
-from scrapy_redis.spiders import RedisSpider
+# try:
+#     from jianshuspider.jianshuspider.items import JianshuArticleItem, JianshuUserItem
+# except:
+#     from jianshuspider.items import JianshuArticleItem, JianshuUserItem
 
 
-class JianshuSpider(RedisSpider):
+class JianshuSpider(RedisCrawlSpider):
     name = 'jianshu'
     allowed_domains = ['www.jianshu.com']
-    # host = 'http://www.jianshu.com/'
     redis_key = "jianshu:start_urls"
     # start_urls = ['http://www.jianshu.com/']
 
     rules = (
-        # Rule(LinkExtractor(allow=r'Items/'), callback='parse_item', follow=True),
         # 提取用户信息规则
         Rule(LinkExtractor(allow=r'/users/'), callback='parse_users', follow=True),
         Rule(LinkExtractor(allow=r'/u/'), callback='parse_users', follow=True),
@@ -30,28 +31,19 @@ class JianshuSpider(RedisSpider):
         Rule(LinkExtractor(allow=r'/p/'), callback='parse_article', follow=True),
     )
 
-    # def __init__(self, *args, **kwargs):
-    #     # Dynamically define the allowed domains list.
-    #     domain = kwargs.pop('domain', '')
-    #     self.allowed_domains = filter(None, domain.split(','))
-    #     super(JianshuSpider, self).__init__(*args, **kwargs)
-    #
-    # def start_requests(self):
-    #     yield Request("http://www.jianshu.com/", callback=self.parse_article)
-
+    # 用户的处理
     def parse_users(self, response):
         item = JianshuUserItem()
-        print(response.url)
         # 用户名
         item["name"] = "".join(response.xpath('//div[@class="title"]/a[@class="name"]/text()').extract())
         # 作者标志
-        # try:
-        #     item["article_s"] = "".join(re.findall(re.compile(r'u/(.*?)\?|users/(.*?)\?'), response.url))
-        # except:
-        #     item["article_s"] = response.url.split('/')[-1]
+        try:
+            item["article_s"] = "".join(re.findall(re.compile(r'u/(.*?)\?|users/(.*?)\?'), response.url))
+        except:
+            item["article_s"] = response.url.split('/')[-1]
         item["article_s"] = item["article_s"].split('?')[0].split('/')[-1]
         # 主页链接地址
-        item["users_url"] = response.url
+        item["users_url"] = response.url.split('?')[0]
         # 关注量
         item["attention"] = "".join(response.xpath('//div[@class="info"]/ul/li[1]/div/a/p/text()').extract())
         # 粉丝数
@@ -67,9 +59,9 @@ class JianshuSpider(RedisSpider):
             .replace(' ', '').replace('\n', '').replace('\t', '').replace('\r', '')
         return item
 
+    # 文章的处理
     def parse_article(self, response):
         items = JianshuArticleItem()
-        print(response.url)
         # 文章标题
         items["article_title"] = "".join(response.xpath('//div[@class="article"]/h1/text()').extract())
         # 作者
@@ -110,10 +102,3 @@ class JianshuSpider(RedisSpider):
         items["weibo_image"] = "".join(response.xpath('//div[@class="share-group"]/a[3]/@href').extract())
 
         return items
-
-    # def parse_item(self, response):
-    #     i = {}
-    #     # i['domain_id'] = response.xpath('//input[@id="sid"]/@value').extract()
-    #     # i['name'] = response.xpath('//div[@id="name"]').extract()
-    #     # i['description'] = response.xpath('//div[@id="description"]').extract()
-    #     return i

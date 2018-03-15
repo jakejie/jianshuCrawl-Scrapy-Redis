@@ -1,23 +1,16 @@
 # -*- coding: utf-8 -*-
-
-# Define your item pipelines here
-#
-# Don't forget to add your pipeline to the ITEM_PIPELINES setting
-# See: https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 from datetime import datetime
 from sqlalchemy import Column, String, create_engine, Integer, Text, DateTime
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
-
-# Item
 try:
     from items import JianshuArticleItem, JianshuUserItem
 except:
     from jianshuspider.items import JianshuArticleItem, JianshuUserItem
 # 数据库连接信息
 db_host = '59.110.230.99'
-db_user = 'root'
-db_pawd = 'roottoor'
+db_user = 'jianshu'
+db_pawd = 'jianshupassword'
 db_name = 'jianbook'
 db_port = 3306
 # 创建对象的基类:

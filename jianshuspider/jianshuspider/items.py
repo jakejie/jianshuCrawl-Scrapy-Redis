@@ -70,12 +70,12 @@ class JianshuArticleItem(scrapy.Item):
     weibo_image = scrapy.Field()
 
 
-# from scrapy.loader import ItemLoader
-# from scrapy.loader.processors import MapCompose, TakeFirst, Join
-#
-#
-# class ExampleLoader(ItemLoader):
-#     default_item_class = JianshuUserItem
-#     default_input_processor = MapCompose(lambda s: s.strip())
-#     default_output_processor = TakeFirst()
-#     description_out = Join()
+from scrapy.loader import ItemLoader
+from scrapy.loader.processors import MapCompose, TakeFirst, Join
+
+
+class ExampleLoader(ItemLoader):
+    default_item_class = JianshuUserItem
+    default_input_processor = MapCompose(lambda s: s.strip())
+    default_output_processor = TakeFirst()
+    description_out = Join()
