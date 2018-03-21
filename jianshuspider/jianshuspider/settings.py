@@ -47,7 +47,6 @@ ITEM_PIPELINES = {
     'scrapy_redis.pipelines.RedisPipeline': 400
 }
 # ------------------Redis分布式配置---------------------------------------------
-# REDIS_HOST = '116.62.64.42'
 REDIS_HOST = '127.0.0.1'
 REDIS_PORT = 6379  # 6379
 SCHEDULER = "scrapy_redis.scheduler.Scheduler"
@@ -102,7 +101,7 @@ SCHEDULER_PERSIST = True
 # HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 # # ------------------Redis分布式配置---------------------------------------------
-# REDIS_HOST = '116.62.64.42'
+# REDIS_HOST = '*****'
 # REDIS_PORT = 6379  # 6379
 # SCHEDULER = "scrapy_redis.scheduler.Scheduler"
 # DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
@@ -151,11 +150,11 @@ ITEM_PIPELINES = {
 # 种子队列的信息
 # REDIS_URL = None
 # REDIS_HOST = '127.0.0.1'
-# REDIS_HOST = '116.62.64.42'
+# REDIS_HOST = '*******'
 # REDIS_PORT = 6379  # 6379
 # FILTER_URL = None
 # FILTER_HOST = '127.0.0.1'
-# FILTER_HOST = '116.62.64.42'
+# FILTER_HOST = '*************'
 # FILTER_PORT = 6379  # 6379
 # FILTER_DB = 0
 # 指定用于连接redis的URL（可选）

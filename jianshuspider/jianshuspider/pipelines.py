@@ -8,7 +8,7 @@ try:
 except:
     from jianshuspider.items import JianshuArticleItem, JianshuUserItem
 # 数据库连接信息
-db_host = '59.110.230.99'
+db_host = '******'
 db_user = 'jianshu'
 db_pawd = 'jianshupassword'
 db_name = 'jianbook'
